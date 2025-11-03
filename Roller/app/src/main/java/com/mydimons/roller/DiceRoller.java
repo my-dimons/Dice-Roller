@@ -18,7 +18,7 @@ public class DiceRoller {
         while (!dice.isEmpty())
             rollAllDice();
 
-        System.out.println("\nTook " + diceRolls + " rolls to get to 0\n");
+        System.out.println("\nTook " + diceRolls + " rolls to get to 0");
 
         System.out.println("Average percent lost: " + Math.round(getAverageDicePercentLoss(rolls)) + "%");
     }
