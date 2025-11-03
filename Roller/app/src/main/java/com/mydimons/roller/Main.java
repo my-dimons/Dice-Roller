@@ -5,6 +5,14 @@ public class Main {
 
     public static void main(String[] args)
     {
+        while (true)
+        {
+            Roller();
+        }
+    }
+
+    static void Roller()
+    {
         Scanner scan = new Scanner(System.in);
         System.out.print("Input number of dice: ");
         int rolls = scan.nextInt();
